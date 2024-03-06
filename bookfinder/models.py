@@ -8,7 +8,6 @@ class Author(db.Model):
     books = db.relationship("Book", backref="author", cascade="all, delete", lazy=True)
 
     def __repr__(self):
-        # represents self in the form of a string
         return self.author_name
 
 
@@ -16,6 +15,7 @@ class Genre(db.Model):
     #schema for the Genre model
     id = db.Column(db.Integer, primary_key=True)
     genre_name = db.Column(db.String(100), unique=True, nullable=False)
+    books = db.relationship("Book", backref="genre", cascade="all, delete", lazy=True)
 
     def __repr__(self):
         return self.genre_name
