@@ -1,4 +1,4 @@
-# ?
+# Bookfinder
 
 Third Milestone Project for the Web Development course offered by Code Institute. Currently a book recommendations site.
 
@@ -21,7 +21,7 @@ Third Milestone Project for the Web Development course offered by Code Institute
 
 ### Project Goals
 
-.
+Bookfinder will be a site where users can upload book recommendations. Books will be grouped by author and by genre, making it easy to find books of a particular genre (fantasy, sci-fi, romance, comedy, non-fiction, and so on), as well as by author.
 
 ### User Goals
 
@@ -30,8 +30,8 @@ Third Milestone Project for the Web Development course offered by Code Institute
 
 ### User Stories
 
-- As a user, I want ...
-- As a user, I want ...
+- As a user, I want a way to find books by the same author.
+- As a user, I want a way to find books of the same genre.
 - As a user, I want ...
 - As a user, I want ...
 - As a user, I want ...
